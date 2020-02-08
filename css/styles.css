@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Dancing+Script:400|Josefin+Sans:300|Lora:400i&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-1 {
+    background-image: url("../images/section-1.png");
+    background-size: cover;
+    height: 100%;
+}
+
+.container {
+    padding-top: 2em;
+}
+
+.brand {
+    color: white;
+    border-style: solid;
+    border-color: white;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.section-1-content h1 {
+    padding-top: 1.9em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+.deco {
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    width: 100px;
+    height: 5px;
+    background-color: white;
+}
+
+.subhead {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+
+.section-1-buttons {
+    margin-top: 2em;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.section-1-buttons button{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-color: none;
+    border-radius: 0%;
+
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.section-1-buttons button:focus{
+    outline: none;
+    background-origin: none !important;
+}
+
+.section-1-buttons button:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.or {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    color: white;
+}
+
+.down-arrow {
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.down-b {
+    margin-top: 5em;
+    margin-bottom: 1.7em;
+    padding: 2.5em 2em;
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    border-width: 2px;
+    border-color: white;
+}
+
+.section-2 {
+    background-image: url("../images/section-2.png");
+    background-size: cover;
+    height: 100%;
+}
+
+.yellow-text {
+    color: rgb(242, 288, 0);
+}
+
+.pre-head {
+    padding-top: 3em;
+    color: white;
+}
+
+.sub-head {
+    color: white;
+}
+
+.section-2-desc {
+    color: white;
+    font-weight: normal !important;
+    text-align: justify;
+}
+
+.section-2-quote {
+    color: white;
+    font-style: italic;
+    font-family: 'Lora', serif;
+}
+
+.section-2-button {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-color: none;
+    border-radius: 0%;
+
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+
+    padding: 0.5em 2em;
+    margin-bottom: 5em;
+}
+
+.section-2-button:hover {
+    color: black;
+    background-color: white;
+}
+
+.section-3 {
+    background-image: url(../images/section-3.png);
+    background-size: cover;
+    height: 100%;
+}
+
+.pre-head2 {
+    padding-top: 3em;
+}
+
+.section-3 .sub-head {
+    color: black;
+}
