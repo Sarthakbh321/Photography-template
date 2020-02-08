@@ -156,3 +156,26 @@ html {
 .section-3 .sub-head {
     color: black;
 }
+
+.section-3-desc {
+    color: black;
+    font-weight: lighter;
+}
+
+.section-3 .section-2-quote {
+    color: black;
+    font-size: 2em;
+    font-weight: lighter;
+    padding-bottom: 1em;
+}
+
+
+.section-3 button {
+    margin-bottom: 6.5em;
+}
+
+.section-3 .section-2-button:hover {
+    background-color: red;
+    border-color: white;
+    color: white;
+}
