@@ -52,7 +52,7 @@ html {
 .section-1-buttons button{
     color: white;
     font-family: 'Montserrat', sans-serif;
-    background-color: none;
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 0%;
 
     border-style: solid;
@@ -84,10 +84,10 @@ html {
 
 .down-b {
     margin-top: 5em;
-    margin-bottom: 1.7em;
+    margin-bottom: 1.9em;
     padding: 2.5em 2em;
     border-radius: 50%;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.2);
     color: white;
     border-width: 2px;
     border-color: white;
@@ -114,7 +114,7 @@ html {
 
 .section-2-desc {
     color: white;
-    font-weight: normal !important;
+    font-weight: lighter;
     text-align: justify;
 }
 
@@ -127,7 +127,7 @@ html {
 .section-2-button {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    background-color: none;
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 0%;
 
     border-style: solid;
@@ -160,6 +160,7 @@ html {
 .section-3-desc {
     color: black;
     font-weight: lighter;
+    text-align: justify;
 }
 
 .section-3 .section-2-quote {
@@ -178,4 +179,62 @@ html {
     background-color: red;
     border-color: white;
     color: white;
+}
+
+.section-4 {
+    background-image: url("../images/section-4.png");
+    background-size: cover;
+    height: 100%;
+}
+
+.contact-head {
+    text-align: center;
+}
+
+.contact-head h1 {
+    padding-top : 1.5em;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-weight: lighter;
+}
+
+.contact-desc {
+    color: white;
+    font-weight: lighter;
+    padding: 0 10%;
+}
+
+.contact-form {
+    padding-top: 2em;
+}
+
+.section-4 .row {
+    padding: 1em;
+}
+
+.form-field {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 0%;
+}
+
+.form-field:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.txt-message {
+    margin: 2em 0;
+    width: 100%;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.section-4 {
+    text-align: center;
 }
